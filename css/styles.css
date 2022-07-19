@@ -39,6 +39,18 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
 /*======================Header*/
 .header {
     padding-top: 24px;
@@ -146,6 +158,7 @@ button:focus {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--main-color);
+    margin-bottom: 10px;
 }
 .benefits-title:not(:nth-child(4n)) {
     margin-bottom: 10px;
@@ -196,6 +209,7 @@ button:focus {
     line-height: 1.18;
     text-align: center;
     color: var(--main-color);
+    margin-bottom: 10px;
 }
 .employees-post {
     font-size: 16px;
@@ -283,7 +297,7 @@ button:focus {
 .btn {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 .btn-portfolio:not(:nth-child(5n)) {
@@ -303,6 +317,7 @@ button:focus {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color);
+    margin-bottom: 4px;
 }
 .projects-text {
     font-size: 16px;
